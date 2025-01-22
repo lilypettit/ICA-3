@@ -1,0 +1,65 @@
+/* properties to include in ICA 2 styles.css */
+
+/* 
+color
+background-color
+font-size
+font-family
+font-weight
+font-style
+text-align
+text-decoration
+line-height
+letter-spacing
+width
+height
+max-width
+min-width
+max-height
+min-height
+*/
+
+body {
+    background-color: #edece5;
+    color: #333;
+    font-family: 'Franklin Gothic Medium' 'Arial Narrow', sans-serif;
+    font-size: 14px;
+}
+
+h1 {
+    text-align: center;
+}
+
+section > p,
+section > blockquote {
+    line-height: 1.5
+}
+
+#main-character {
+    font-weight: 600;
+}
+
+ol > li > span #favorite-movie {
+    font-style: italic;
+}
+.strikethrough-text {
+    text-decoration: line-through;
+}
+
+code {
+    font-family: monospace;
+    letter-spacing: 0.7em;
+}
+
+section#description-section,
+section#fact-seection {
+    background-color: blanchedalmond;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: pink;
+}
+#description-section img {
+    max-width: 100%;
+    min-height: 120px;
+}
